@@ -8,11 +8,16 @@ header {
   color: white;
   display:flex;
   flex-direction: row;
+  padding: 15px;
+  align-items: center
+  /* justify-content: space-between;
+  column-gap: 50px; */
 }
 
 header .logo {
   text-transform: uppercase;
   font-size: 40px;
+  font-weight: bold;
 }
 
 nav ul {  
@@ -23,5 +28,6 @@ nav ul {
 }
 
 nav ul li {
-
+  /* align-items: center; */
+  
 }
