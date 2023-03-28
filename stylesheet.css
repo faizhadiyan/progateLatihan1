@@ -9,8 +9,8 @@ header {
   display:flex;
   flex-direction: row;
   padding: 15px;
-  align-items: center
-  /* column-gap: 50px; */
+  align-items: center;
+  column-gap: 10px;
 }
 
 header .logo {
@@ -34,6 +34,7 @@ nav ul li {
 
 main {
   width: 100%;
+  margin-top: 20px;
 }
 
 main section {
@@ -42,6 +43,7 @@ main section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 main section h1 {
@@ -56,4 +58,10 @@ main section h1 span {
 main section h2 {
   text-transform: uppercase;
   letter-spacing: 10px;
+}
+
+main section img {
+  width: 25%;
+  position: absolute;
+  top: 140px
 }
