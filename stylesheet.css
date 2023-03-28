@@ -19,7 +19,7 @@ header .logo {
   font-weight: bold;
 }
 
-nav ul {  
+header nav ul {  
   display:flex;
   margin-left: 30px;
   list-style: none;
@@ -27,7 +27,7 @@ nav ul {
   justify-content: space-between;
 }
 
-nav ul li {
+header nav ul li {
   /* align-items: center; */
   font-size: 19px;
 }
@@ -94,7 +94,7 @@ main .about .bungkusp p{
   margin-top: 20px;
 }
 
-.contohproyek h2{
+.contohproyek h3{
   text-align: center;
 }
 
@@ -110,4 +110,13 @@ main .about .bungkusp p{
 .contohproyek .image .image1 img{
   width: 200px;
   text-align: center;
+}
+
+.contactform {
+  background-color: gray;
+  text-align: center;
+}
+
+.contactform h3 {
+  padding-top: 30px;
 }
