@@ -107,9 +107,12 @@ main .about .bungkusp p{
   column-gap: 20px;
 }
 
-.contohproyek .image .image1 img{
-  width: 200px;
+.contohproyek .image .image1{
   text-align: center;
+}
+
+.contohproyek .image .image1 img{
+  width: 200px; 
 }
 
 .contactform {
@@ -119,4 +122,20 @@ main .about .bungkusp p{
 
 .contactform h3 {
   padding-top: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .logobawah {
+  text-transform: uppercase;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
