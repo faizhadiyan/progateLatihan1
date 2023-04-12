@@ -167,7 +167,7 @@ main .about .bungkusp p{
 .contactform .messageform textarea {
   font-family: sans-serif;
   padding: 5px;
-  border: 2px solid white;
+  border: 1px solid black;
 }
 
 .contactform .buttonkirim {
