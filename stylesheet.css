@@ -3,27 +3,37 @@
   padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 header {
+  position:fixed;
   background-color: black;
   color: white;
   display:flex;
   flex-direction: row;
   padding: 15px;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 20px;
+  width: 100%;
+  height:60px;
+  margin-top:-21px;
+  z-index: 100;
 }
 
 header .logo {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
+  letter-spacing: 4px;
 }
 
 header nav ul {  
   display:flex;
   margin-left: 30px;
   list-style: none;
-  column-gap: 20px;
+  column-gap: 30px;
   justify-content: space-between;
 }
 
@@ -50,7 +60,9 @@ main section {
 main section h1 {
   text-transform: uppercase;
   font-size: 80px;
-  letter-spacing: 14px;
+  letter-spacing: 5px;
+  font-weight: 800;
+  padding-top:80px;
 }
 
 main section h1 span {
@@ -65,26 +77,28 @@ main section h2 {
 main section img {
   width: 18%;
   position: absolute;
-  top: 108px;
+  top: 215px;
   display: block;
 }
 
 main .about {
   width: 100%;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(233, 232, 232);
   margin-top: 250px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-main .about h2 {
+main .about h3 {
   margin-top:20px;
+  font-size:24px;
+  font-weight: bold;
 }
 
 main .about .bungkusp p{
-  width: 30%;
+  width: 60%;
   margin:auto;
   margin-top: 30px;
   margin-bottom:50px;
@@ -96,6 +110,8 @@ main .about .bungkusp p{
 
 .contohproyek h3{
   text-align: center;
+  font-size:24px;
+  font-weight: bold;
 }
 
 .contohproyek .image {
@@ -109,25 +125,33 @@ main .about .bungkusp p{
 
 .contohproyek .image .image1{
   text-align: center;
+  width: 32%;
 }
 
 .contohproyek .image .image1 img{
-  width: 200px; 
+  width: 300px; 
 }
 
 .contactform {
-  background-color: gray;
+  background-color: rgb(233, 232, 232);
   text-align: center;
+  height:300px;
+  padding-top: 40px;
+  padding-bottom: 100px;
 }
 
 .contactform h3 {
-  padding-top: 40px;
+  padding-top: 20px;
+  font-size:24px;
+  font-weight: 800;
+  text-align: center;
 }
 
 .contactform .emailform {
   display: grid;
   margin-right: 25%;
   margin-left: 25%;
+  margin-top: 10px;
   padding: 20px;
   height: 35px;
 }
@@ -137,10 +161,16 @@ main .about .bungkusp p{
   margin-right: 25%;
   margin-left: 25%;
   padding: 20px;
-  height: 35px;
+  height: 80px;
 }
 
-.contactform button {
+.contactform .messageform textarea {
+  font-family: sans-serif;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+.contactform .buttonkirim {
   background-color: rgb(247, 233, 137);
   border-color: rgb(247, 233, 137);
   color: black;
